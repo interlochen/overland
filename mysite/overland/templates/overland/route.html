@@ -1,0 +1,52 @@
+{% extends "overland/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<div id="main">
+	<div class="container">
+		<div class="row">			
+			<!-- Content -->
+			<div class="8u skel-cell-important">
+				<section id="content">
+					<header>
+						<h2>Map</h2>
+					</header>
+					<iframe src="https://mapsengine.google.com/map/embed?mid=ztPv2ktbzvOg.k5mnDf96qbl8" width="640" height="480"></iframe>
+				</section>
+			</div>
+	<!-- /Content -->
+						
+	<!-- Sidebar -->
+			<div id="sidebar" class="4u">
+				<section>
+					<header>
+						<h2>Full Route</h2>
+					</header>
+					<ul class="default">
+						<li>Day 1: Galway to Snowdonia 402 km</li>
+						<li>Day 2: Snowdonia to Harwich 277 km</li>
+						<li>Day 3: Harwich to Amsterdam</li>
+						<li>Day 4: Rest day in Amsterdam</li>
+						<li>Day 5: Amsterdam to Hamburg 466 km</li>
+						<li>Day 6: Hamburg to Kolding 241 km</li>
+						<li>Day 7: kolding to Hirtshals 266 km</li>
+						<li>Day 8: Hirtshals to Stavanger 369 km</li>
+						<li>Day 9: Rest day Stavanger</li>
+						<li>Day 10: Stavanger to Bergen 211 km</li>
+						<li>Day 11: Bergen to Geilo 244 km</li>
+						<li>Day 12: Geilo to Oslo  219 km</li>
+						<li>Day 13: Oslo to Gothenburg 293km</li>
+						<li>Day 14: Rest day Gothernburg</li>
+						<li>Day 15: Gothenburg to Naestved 391 km</li>
+						<li>Day 16: Naestved  to Bremen 384 km</li>
+						<li>Day 17: Bremen to Hook of Holland</li>
+						<li>Day 18: Hook of Holland to Peak District National Park 532 km </li>
+						<li>Day 19: Peak District National Park to Llandudno 150 km</li>
+						<li>Day 20: Llandudno to Galway 404 km</li>
+					</ul>
+				</section>
+			</div>		
+		</div>
+	</div>
+</div>
+{% endblock content %}

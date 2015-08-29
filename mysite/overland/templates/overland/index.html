@@ -1,0 +1,75 @@
+{% extends "overland/base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+		<div id="main">
+			<div class="container">
+				<header>
+					<h2>Where we are headed</h2>
+				</header>
+				<div class="row">
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="{% static 'images/rotterdam.jpg' %}" width="262" height="160" alt="Rotterdam" /></a>
+							<h3>Rotterdam</h3>
+							<a href="https://en.wikipedia.org/wiki/Rotterdam" class="button">Read More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="{% static 'images/hirtshals.jpg' %}"width="262" height="160" alt="Hirtshals" /></a>
+							<h3>Hirtshals</h3>
+							<a href="https://en.wikipedia.org/wiki/Hirtshals" class="button">Read More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="{% static 'images/kristiansand.jpg' %}" width="262" height="160" alt="Kristiansand" /></a>
+							<h3>Kristiansand</h3>
+							<a href="https://en.wikipedia.org/wiki/Kristiansand" class="button">Read More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href="#" class="image full"><img src="{% static 'images/Bergen.jpeg' %}" width="262" height="160" alt="Bergen" /></a>
+							<h3>Bergen</h3>
+							<a href="https://en.wikipedia.org/wiki/Bergen" class="button">Read More</a>
+						</section>
+					</div>
+				</div>
+				<div class="row">
+					
+						<section id="content" style="font-size: 24px">
+							Feel free to email us with an questions or concerns at <a href="#" style="font-color: red">norwaylrexpedition@gmail.com</a>
+						</section>
+				</div>
+				<div class="divider"></div>
+				<div class="row">
+						<!-- Content -->
+						<div class="7u skel-cell-important">
+							<section id="content">
+								<header>
+									<h2>Countdown to Departure</h2>
+								</header>
+								<script>
+									var myCountdown1 = new Countdown({
+										year: 2016,
+										month: 4,
+										day: 8,
+									});
+								</script>
+							</section>
+						</div>
+					<!-- /Content -->
+					<!-- Sidebar -->
+						<div id="sidebar" class="4u">
+							<a href="#" class="image full"><img src="{% static 'images/110.jpg' %}" width="500" height="200" alt="Defender 110" /></a>
+						</div>
+					<!-- Sidebar -->
+						
+				</div>
+			</div>
+		</div>
+	<!-- Main -->
+	<!-- Copyright -->
+{% endblock content %}
