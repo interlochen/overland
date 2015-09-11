@@ -104,16 +104,18 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
+STATIC_ROOT = "/webapps/norway/static/"
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     '/var/www/static/',
 )
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# EMAIL_HOST = 'smtp.sendgrid.net'
-# EMAIL_HOST_USER = 'interlochen'
-# EMAIL_HOST_PASSWORD = '1stinkykitty'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'norwaylrexpedition@gmail.com'
+EMAIL_HOST_PASSWORD = 'seam2011'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
