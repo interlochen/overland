@@ -349,7 +349,7 @@
 
 	@media (max-width: 1780px) {
 		#sidebar{
-			float: bottom;
+			display: inherit;
 			left: 42%;
 		}
 	}
