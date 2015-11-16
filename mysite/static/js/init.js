@@ -3,6 +3,11 @@
     templated.co @templatedco
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+skel.breakpoints({
+    medium: "(min-width: 769px) and (max-width: 1024px)",
+    small:  "(max-width: 768px)",
+    xsmall: "(max-width: 480px)"
+});
 
 skel.init({
 	prefix: 'css/style',
