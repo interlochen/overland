@@ -8,6 +8,7 @@ urlpatterns = [
     url(r'^application/', views.application, name='application'),
     url(r'^route/', views.route, name='route'),
     url(r'^details/', views.details, name='details'),
+    url(r'^itinerary/', views.itinerary, name='itinerary'),
     url(r'^participants/', views.participants, name='participants'),
     url(r'^thanks/', views.thanks, name='thanks'),
     url(r'^gallery/', views.gallery, name='gallery'),

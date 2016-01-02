@@ -53,3 +53,6 @@ def gallery(request):
 
 def sponsors(request):
 	return render(request, "overland/sponsors.html")
+
+def itinerary(request):
+	return render(request, "overland/itinerary.html")
